@@ -1,4 +1,4 @@
-package java.Array;
+package javaLetcode.ArrayTestLetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;

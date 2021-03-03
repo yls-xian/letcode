@@ -1,4 +1,4 @@
-package java.Array;
+package javaLetcode.ArrayTestLetcode;
 
 /**
  * @author yulinsheng

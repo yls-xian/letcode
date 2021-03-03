@@ -1,4 +1,4 @@
-package java.Array;
+package javaLetcode.ArrayTestLetcode;
 
 /**
  * @author yulinsheng
@@ -8,7 +8,7 @@ package java.Array;
 public class round_59 {
 }
 
-class Solution {
+class Solution59 {
     public int[][] generateMatrix(int n) {
         int [][] arr = new int [n][n];
         int l = 0;
