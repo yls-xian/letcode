@@ -19,7 +19,7 @@ class Solution989 {
     public List<Integer> addToArrayForm(int[] A, int K) {
         int n = A.length;
         List <Integer> result = new ArrayList<Integer>();
-        for(int i = n-1;i>0;i--){
+        for(int i = n-1;i>=0;i--){
 //           对K值取余获得值。
             int sum = A[i] + K%10;
 //            将K值除以10获得剩下的元素值
@@ -36,7 +36,7 @@ class Solution989 {
         for(;K>0;K/=10){
             result.add(K%10);
         }
-        //不用考虑数组个数大于，因为1/10等于0
+        //不用考虑数组个数大于，因为1/10等于0，等于几个的时候
         Collections.reverse(result);
         return result;
     }

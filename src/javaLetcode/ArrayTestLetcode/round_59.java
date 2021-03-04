@@ -2,8 +2,7 @@ package javaLetcode.ArrayTestLetcode;
 
 /**
  * @author yulinsheng
- * @time 2021-03-01-19:49
- * @email yls4314300@163.com
+
  */
 public class round_59 {
 }

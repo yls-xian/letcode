@@ -2,8 +2,6 @@ package javaLetcode.ArrayTestLetcode;
 
 /**
  * @author yulinsheng
- * @time 2021-03-03-17:12
- * @email yls4314300@163.com
  */
 public class Two_Pointers_26 {
 }
