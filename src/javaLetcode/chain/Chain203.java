@@ -10,7 +10,7 @@ public class Chain203 {
 }
 //这个容易理解，利用一个虚拟头节点信息，将后面的所有节点信息重新排列。
 class Solution203Two{
-    public ListNode removeElements(ListNode head,int val){
+    public ListNode removeElements(ListNode head, int val){
 //        建立一个虚拟头节点
         ListNode dummyNode = new ListNode(0);
 //        将头节点连接到链表中
@@ -39,7 +39,7 @@ class Solution203Two{
     没太看懂
  */
 class Solution203{
-    public ListNode removeElements(ListNode head,int val){
+    public ListNode removeElements(ListNode head, int val){
 //        首先考虑
         while(head!=null && head.val == val) {
             head = head.next;

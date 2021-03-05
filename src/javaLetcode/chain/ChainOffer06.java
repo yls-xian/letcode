@@ -14,7 +14,7 @@ public class ChainOffer06 {
 
 
 class SolutionChainOffer06 {
-    public int[] reversePrint(ListNode head) {
+    public int[] reversePrint(ListNodeSingle head) {
 //        首先建立一个list列表
         List<Integer> arrRes = new ArrayList<Integer>();
 //        初始化链表节点的个数为0

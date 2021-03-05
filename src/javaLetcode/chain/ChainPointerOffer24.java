@@ -1,9 +1,5 @@
 package javaLetcode.chain;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-
 /**
  * @author yulinsheng
  * @time 2021-03-04-16:04
@@ -12,14 +8,14 @@ import java.util.List;
 public class ChainPointerOffer24 {
 }
 class SolutionPointerOffer24 {
-    public ListNode reverseList(ListNode head) {
+    public ListNodeSingle reverseList(ListNodeSingle head) {
 //        定义前一个节点和后一个节点
-            ListNode pre = null;
-            ListNode curr = head;
+            ListNodeSingle pre = null;
+            ListNodeSingle curr = head;
             while(curr != null)
             {
 //                首先存储好下一个链表的指针
-                ListNode next = curr.next;
+                ListNodeSingle next = curr.next;
 //                然后将链表的指针互转，后一个指针变成前一个
                 curr.next = pre;
 //                改变后，将后一个指针变成当前节点
@@ -35,13 +31,13 @@ class SolutionPointerOffer24 {
 }
 
 class SolutionRecurrenceOffer24 {
-    public ListNode reverseList(ListNode head) {
+    public ListNodeSingle reverseList(ListNodeSingle head) {
 //        当数据仅仅存在一个元素是不需要进行反转了
         if(head != null || head.next != null){
             return head;
         }
         //调用递归
-        ListNode newHead = reverseList(head.next);
+        ListNodeSingle newHead = reverseList(head.next);
 //        1 -> 2 -> 3 -> null   3->2->1->null
 //        2 -> 3 -> null
 //        将2这个节点的next 3的next变成1，变成了
