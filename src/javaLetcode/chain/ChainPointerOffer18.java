@@ -8,10 +8,10 @@ package javaLetcode.chain;
 public class ChainPointerOffer18 {
 }
 class SolutionPointerOffer18 {
-    public ListNodeSingle deleteNode(ListNodeSingle head, int val) {
+    public ListNode deleteNode(ListNode head, int val) {
 //        头元素相等的特殊情况。
         if (head.val == val) return head.next;
-        ListNodeSingle pre = head,cur = head.next;
+        ListNode pre = head,cur = head.next;
 //       循环寻找相等的前后指针，当相等是跳出循环，此时cur指针指向相等的位置
         while(cur != null && cur.val != val)
         {

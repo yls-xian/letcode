@@ -9,9 +9,9 @@ public class ChainOffer52 {
 }
 
 class SolutionOffer52 {
-    public ListNodeSingle getIntersectionNode(ListNodeSingle headA, ListNodeSingle headB) {
+    public ListNode getIntersectionNode(ListNode headA, ListNode headB) {
 //        首先利用A,B获得新的节点值
-        ListNodeSingle A = headA,B = headB;
+        ListNode A = headA,B = headB;
 //        当A与B的节点值不相等时，开始循环
         while(A!=B){
 //            首先循环A，循环A之后，循环B，只要有相同的节点，两次循环后A与B的值就一定会重和
