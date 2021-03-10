@@ -37,15 +37,17 @@ public class BasedTest {
         set.add(11);
         set.add(17);
         set.add(15);
-        set.add(15);
-        System.out.println(set);
-        System.out.println(set.contains(5));
-        set.remove(15);
-        System.out.println(set);
-        for(int i : set)
-        {
-            System.out.println(i);
-        }
+        System.out.println(set.add(15));
+        System.out.println(set.add(1));
+//
+//        System.out.println(set);
+//        System.out.println(set.contains(5));
+//        set.remove(15);
+//        System.out.println(set);
+//        for(int i : set)
+//        {
+//            System.out.println(i);
+//        }
 
     }
 }
