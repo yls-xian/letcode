@@ -1,6 +1,5 @@
 package treeTest;
 
-import javax.swing.tree.TreeNode;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
@@ -12,7 +11,7 @@ import java.util.Queue;
  */
 public class TreeLevelOrder102 {
 }
-class Solution {
+class Solution102 {
     public List<List<Integer>> levelOrder(TreeNodeTest root) {
         // 建立存储结果的双列表结构
         List<List<Integer>> res = new ArrayList<List<Integer>>();
